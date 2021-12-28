@@ -1,0 +1,120 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-size: 20px;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -ms-text-size-adjust: 100%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.angle {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50px;
+    opacity: .7;
+}
+
+.container {
+    max-width: 40rem;
+    margin: auto;
+    padding-top: 14rem;
+}
+
+.box .text {
+    text-align: center;
+    user-select: none;
+    font-size: 2em;
+    font-family: Ubuntu;
+    margin-bottom: .5em;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url("../font/UbuntuMono-Regular.ttf");
+}
+
+.scale {
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+.scale img {
+    width: 20em;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 0;
+    text-align: center;
+}
+
+thead {
+    max-height: 1em;
+    border-bottom: 1px solid #fff;
+}
+
+thead th {
+    font-style: oblique;
+    font-weight: 100;
+    padding: 3px 0;
+}
+
+tbody {
+    height: 5em;
+}
+
+tbody th {
+    width: 20rem;
+    font-size: 1.6em;
+    font-weight: 100;
+}
+
+.thb {
+    border-right: 1px solid #fff;
+}
+
+.size {
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+    max-height: 6em;
+    background-color: #232323;
+    display: block;
+    color: #fff;
+}
+
+.jump {
+    float: right;
+    user-select: none;
+}
+
+.jump a {
+    color: #f7d159;
+    font-weight: bold;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.jump a:hover {
+    background-color: #000;
+}
