@@ -26,6 +26,7 @@ body {
     right: 0;
     width: 50px;
     opacity: .7;
+    pointer-events: none;
 }
 
 .container {
@@ -49,6 +50,8 @@ body {
 }
 
 .scale {
+    user-select: none;
+    pointer-events: none;
     text-align: center;
     margin-bottom: .5em;
 }
