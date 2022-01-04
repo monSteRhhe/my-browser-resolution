@@ -1,8 +1,8 @@
 'use strict';
 
 function prtSize() {
-    var w = document.body.offsetWidth;
-    var h = document.body.offsetHeight;
+    var w = document.documentElement.clientWidth;
+    var h = document.documentElement.clientHeight;
 
     document.getElementById('cw').innerHTML = w;
     document.getElementById('ch').innerHTML = h;

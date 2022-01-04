@@ -3,4 +3,10 @@
 
 参考 [How Big Is My Browser?](http://howbigismybrowser.com/)
 
-用 JS 的 offsetWeight/offsetHeight 获取宽高然后显示。
+用 JS 获取宽高然后显示
+
+```javascript
+document.documentElement.clientWidth
+document.documentElement.clientHeight
+```
+
